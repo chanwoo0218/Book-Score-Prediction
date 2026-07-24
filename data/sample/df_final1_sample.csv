@@ -1,0 +1,6 @@
+ID,User-ID,Book-ID,Book-Rating,Age,Book-Title,Book-Author,Year-Of-Publication,Publisher,Location_country
+TRAIN_000004,USER_00000,BOOK_180810,8,23.0,she who remembers,linda lay shuler,1989.0,signet book,canada
+TRAIN_000005,USER_00000,BOOK_206799,5,23.0,neuromancer (remembering tomorrow),william gibson,1995.0,ace books,canada
+TRAIN_000006,USER_00000,BOOK_239414,9,23.0,the little prince,antoine de saint-exupã©ry,1982.0,harvest books,canada
+TRAIN_000034,USER_00004,BOOK_033489,8,35.0,music &amp; silence,rose tremain,2000.0,farrar straus giroux,usa
+TRAIN_000035,USER_00004,BOOK_053907,9,35.0,atonement: a novel,ian mcewan,2002.0,nan a. talese,usa
