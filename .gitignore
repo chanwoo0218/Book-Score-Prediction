@@ -9,4 +9,10 @@ env/
 *.log
 outputs/
 models/
+
+# Keep raw or ad-hoc CSV exports out of Git by default.
 *.csv
+
+# Explicitly track the processed dataset and public samples.
+!data/processed/df_final1.csv
+!data/sample/*.csv
