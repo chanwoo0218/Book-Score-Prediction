@@ -13,6 +13,13 @@
 | 평가 지표 | RMSE, MAE, R² |
 | 평가 방식 | 사용자 기반 warm-start holdout |
 
+## 발표자료
+
+[![PDF 발표자료](https://img.shields.io/badge/PDF-원본_발표자료_보기-EA4335?logo=adobeacrobatreader&logoColor=white)](docs/DF%204조%20최종%20발표_book%20score%20prediction.pdf)
+
+- [원본 발표자료 PDF 열기](docs/DF%204조%20최종%20발표_book%20score%20prediction.pdf)
+- [발표자료 핵심 내용 보기](docs/발표자료_요약.md)
+
 ## 문제 정의
 
 평점 예측 데이터는 한 행이 사용자와 도서의 상호작용을 뜻하며, 사용자·도서 ID의 고유값이 많고 상호작용이 희소합니다. 이 프로젝트는 단순 사용자 평균보다 사용자 정보와 도서 메타데이터를 함께 사용한 모델이 평점 예측을 개선할 수 있는지 검증했습니다.
@@ -56,6 +63,7 @@ CatBoost는 사용자 평균 기준모델 대비 RMSE를 약 `0.0883`, MAE를 �
 │   ├── processed/df_final1.csv
 │   └── sample/df_final1_sample.csv
 ├── docs
+│   ├── DF 4조 최종 발표_book score prediction.pdf
 │   └── 발표자료_요약.md
 └── notebooks
     ├── 01_데이터_전처리.ipynb
